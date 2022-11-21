@@ -2,15 +2,21 @@
     .flex{
         flex-direction:column;
     }
+    .container{
+        margin:0 auto;
+        max-width:100%;
+        width:400px;
+        /* overflow:hidden; */
+    }
     .align-center{
         text-align:center;
     }
     .logo{
-        width:120px;
-        height:25px;
+        width:150px;
+        height:30px;
     }
     .mockups{
-        width:400px;
+        width:450px;
     }
     .box{
         height:70vh;
@@ -19,7 +25,7 @@
         flex-direction: column-reverse;
     }
     .matter{
-        width:50vw;
+        width:60vw;
     }
     .block{
         display:block;
@@ -31,11 +37,22 @@
     .tm{
         margin-top:20px;
     }
-    .lm{
-        margin-left:10px;
-    }
+    /* .lm{
+        margin-left:20px;
+    } */
     .btn-small{
         padding:10px 30px;
         margin-top:10px;
+    }
+    .card{
+        margin:-70% 5%;
+        width:450px;
+    }
+    .footer{
+        margin-top:120px;
+    }
+    .footer-logoo{
+        margin-top:100px;
+        margin-bottom:20px;
     }
 }
