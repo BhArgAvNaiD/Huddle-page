@@ -1,0 +1,41 @@
+@media screen and (max-width:768px){
+    .flex{
+        flex-direction:column;
+    }
+    .align-center{
+        text-align:center;
+    }
+    .logo{
+        width:120px;
+        height:25px;
+    }
+    .mockups{
+        width:400px;
+    }
+    .box{
+        height:70vh;
+    }
+    .column-reverse{
+        flex-direction: column-reverse;
+    }
+    .matter{
+        width:50vw;
+    }
+    .block{
+        display:block;
+    }
+    .flexd{
+        flex-direction: row;
+        justify-content:center;
+    }
+    .tm{
+        margin-top:20px;
+    }
+    .lm{
+        margin-left:10px;
+    }
+    .btn-small{
+        padding:10px 30px;
+        margin-top:10px;
+    }
+}
